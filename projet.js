@@ -67,9 +67,11 @@ var tousProduits = [
 
 // 2 - la liste des utilisateurs pour tester la connexion
 var utilisateurs = [
-    { email: "aziz@ummto.dz", motDePasse: "Aziz2025!", nom: "Aziz Douniazed" },
+    { email: "client@email.com", motDePasse: "Client123!", nom: "Client Test" },
     { email: "djouber@ummto.dz", motDePasse: "Dina2025!", nom: "Djouber Dina" },
-    { email: "client@email.com", motDePasse: "Client123!", nom: "Client Test" }
+    { email: "aziz@ummto.dz", motDePasse: "Aziz2025!", nom: "Aziz Douniazed" }
+    
+    
 ];
 
 // 3 - fonction pour avoir le bon chemin des images (vu qu'on a des pages dans le dossier content)
