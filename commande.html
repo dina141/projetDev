@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopDZ - Finalisez votre commande, livraison partout en Algérie.">
+    <title>ShopDZ - Commande</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="accueil.html"><h1>Shop<span>DZ</span></h1></a>
+            </div>
+            <button id="hamburger" class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="inscription.html">Inscription</a></li>
+                    <li><a href="connection.html">Connexion</a></li>
+                    <li><a href="commande.html" class="actif">🛒 Panier <span id="compteur-panier" class="compteur">0</span></a></li>
+                </ul>
+            </nav>
+            <div id="nav-session"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="titre-page">
+            <h2>Votre Commande</h2>
+            <p>Vérifiez votre panier et finalisez votre achat</p>
+        </section>
+
+        <section class="section-commande">
+            <div class="container">
+                <!-- Message de retour global -->
+                <div id="message-commande" class="message" style="max-width:1000px; margin:0 auto 24px;"></div>
+
+                <div class="grille-commande">
+
+                    <!-- Résumé du panier -->
+                    <div class="resume-panier">
+                        <h3>🛒 Résumé du Panier</h3>
+                        <div id="contenu-panier">
+                            <p class="panier-vide">Votre panier est vide.</p>
+                        </div>
+                        <div class="total-panier">
+                            <span>Total :</span>
+                            <span class="montant-total" id="total-commande">0 DA</span>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire de livraison -->
+                    <div class="formulaire-livraison">
+                        <h3>📦 Informations de Livraison</h3>
+                        <form id="formulaire-commande" novalidate>
+
+                            <div class="groupe-champ">
+                                <label for="nom-complet">Nom complet</label>
+                                <input type="text" id="nom-complet" placeholder="Votre nom complet" required>
+                            </div>
+
+                            <div class="groupe-champ">
+                                <label for="adresse">Adresse de livraison</label>
+                                <input type="text" id="adresse" placeholder="Rue, quartier, numéro..." required>
+                                <small>Minimum 5 caractères</small>
+                            </div>
+
+                            <div class="groupe-champ">
+                                <label for="ville">Wilaya</label>
+                                <select id="ville" required>
+                                    <option value="">-- Choisir une wilaya --</option>
+                                    <option>Tizi-Ouzou</option>
+                                    <option>Alger</option>
+                                    <option>Béjaïa</option>
+                                    <option>Bouira</option>
+                                    <option>Oran</option>
+                                    <option>Constantine</option>
+                                    <option>Sétif</option>
+                                    <option>Blida</option>
+                                    <option>Boumerdès</option>
+                                    <option>Annaba</option>
+                                    <option>Batna</option>
+                                    <option>Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="groupe-champ">
+                                <label for="telephone">Numéro de téléphone</label>
+                                <input type="tel" id="telephone" placeholder="05XXXXXXXX" required>
+                                <small>Format algérien : 05, 06 ou 07 + 8 chiffres</small>
+                            </div>
+
+                            <button type="submit" class="btn-soumettre">✅ Confirmer la commande</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025/2026 ShopDZ — Tous droits réservés</p>
+        <p class="info-projet">Projet Web — UMMTO</p>
+    </footer>
+
+    <script src="projet.js"></script>
+</body>
+</html>

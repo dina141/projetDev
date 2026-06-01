@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopDZ - Créez votre compte client.">
+    <title>ShopDZ - Inscription</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="accueil.html"><h1>Shop<span>DZ</span></h1></a>
+            </div>
+            <button id="hamburger" class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="inscription.html" class="actif">Inscription</a></li>
+                    <li><a href="connection.html">Connexion</a></li>
+                    <li><a href="commande.html">🛒 Panier <span id="compteur-panier" class="compteur">0</span></a></li>
+                </ul>
+            </nav>
+            <div id="nav-session"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="titre-page">
+            <h2>Créer un compte</h2>
+            <p>Rejoignez ShopDZ pour une expérience d'achat rapide</p>
+        </section>
+
+        <section class="section-formulaire">
+            <div class="conteneur-formulaire">
+                <form id="formulaire-inscription" novalidate>
+                    <div id="message-inscription" class="message"></div>
+
+                    <div style="display: flex; gap: 15px;">
+                        <div class="groupe-champ" style="flex: 1;">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" placeholder="Votre nom" required>
+                        </div>
+                        <div class="groupe-champ" style="flex: 1;">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" placeholder="Votre prénom" required>
+                        </div>
+                    </div>
+
+                    <div class="groupe-champ">
+                        <label for="email-inscription">Adresse Email</label>
+                        <input type="email" id="email-inscription" placeholder="exemple@domaine.com" required>
+                    </div>
+
+                    <div class="groupe-champ">
+                        <label for="mdp-inscription">Mot de passe</label>
+                        <input type="password" id="mdp-inscription" placeholder="Créez un mot de passe" required>
+                        <small>Min. 8 caractères (1 majuscule, 1 minuscule, 1 chiffre, 1 caractère spécial)</small>
+                    </div>
+
+                    <div class="groupe-champ">
+                        <label for="mdp-confirmation">Confirmez le mot de passe</label>
+                        <input type="password" id="mdp-confirmation" placeholder="Répétez le mot de passe" required>
+                    </div>
+
+                    <button type="submit" class="btn-soumettre">S'inscrire</button>
+
+                    <p class="lien-formulaire">Vous avez déjà un compte ? <a href="connection.html">Connectez-vous ici</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025/2026 ShopDZ — Tous droits réservés</p>
+        <p class="info-projet">Projet Web — UMMTO</p>
+    </footer>
+
+    <script src="projet.js"></script>
+</body>
+</html>

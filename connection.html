@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopDZ - Connectez-vous à votre compte.">
+    <title>ShopDZ - Connexion</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="accueil.html"><h1>Shop<span>DZ</span></h1></a>
+            </div>
+            <button id="hamburger" class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="inscription.html">Inscription</a></li>
+                    <li><a href="connection.html" class="actif">Connexion</a></li>
+                    <li><a href="commande.html">🛒 Panier <span id="compteur-panier" class="compteur">0</span></a></li>
+                </ul>
+            </nav>
+            <div id="nav-session"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="titre-page">
+            <h2>Connexion</h2>
+            <p>Accédez à votre espace personnel</p>
+        </section>
+
+        <section class="section-formulaire">
+            <div class="conteneur-formulaire">
+                <form id="formulaire-connexion" novalidate>
+                    <div id="message-connexion" class="message"></div>
+
+                    <div class="groupe-champ">
+                        <label for="email-connexion">Adresse Email</label>
+                        <input type="email" id="email-connexion" placeholder="exemple@ummto.dz" required>
+                    </div>
+
+                    <div class="groupe-champ">
+                        <label for="mdp-connexion">Mot de passe</label>
+                        <input type="password" id="mdp-connexion" placeholder="Votre mot de passe" required>
+                    </div>
+
+                    <button type="submit" class="btn-soumettre">Se connecter</button>
+
+                    <p class="lien-formulaire">Nouveau client ? <a href="inscription.html">Créez un compte ici</a></p>
+                    
+                    <div style="margin-top:20px; font-size:0.85rem; color:#64748b; background:#f8fafc; padding:10px; border-radius:8px; border:1px solid #e2e8f0;">
+                        <strong>Comptes de test (projet) :</strong><br>
+                        Email: aziz@ummto.dz<br>
+                        Mot de passe: Aziz2025!
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025/2026 ShopDZ — Tous droits réservés</p>
+        <p class="info-projet">Projet Web — UMMTO</p>
+    </footer>
+
+    <script src="projet.js"></script>
+</body>
+</html>
