@@ -111,7 +111,7 @@ function validerConnexion(event) {
     var messageDiv = document.getElementById('message-connexion');
 
     // RegEx pour valider le format email
-    var regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    var regexEmail = /^[\w.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i;
 
     if (!regexEmail.test(email)) {
         messageDiv.textContent = "⚠️ Le format de l'email est invalide.";
@@ -155,7 +155,7 @@ function validerInscription(event) {
 
     // Expressions régulières
     var regexNom = /^[a-zA-ZÀ-ÿ\s-]{2,30}$/;
-    var regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    var regexEmail =  /^[\w.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i;
     var regexMdp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/;
 
     if (!regexNom.test(nom)) {
