@@ -3,7 +3,7 @@ var tousProduits = [
         "id": 1,
         "nom": "Cheval Bleu   de Franz Marc",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "cheval bleu de franz marc.jpg"
     },
@@ -19,7 +19,7 @@ var tousProduits = [
         "id": 3,
         "nom": "Dame Avec l'Hermione   de Leonard de Vinci",
         "categorie": "Tableaux Célèbres",
-        "prix": 120000,
+        "prix": 3000,
         "description": "Toile 80/100 cm.",
         "image": "dame avec l'hermione de leonard de vinci.jpg"
     },
@@ -27,15 +27,15 @@ var tousProduits = [
         "id": 4,
         "nom": "Femme avec Ombrelle  de Claude Monet",
         "categorie": "Tableaux Célèbres",
-        "prix": 12000,
-        "description": "Suivi d'activité, fréquence cardiaque, autonomie 16 jours.",
+        "prix": 6200,
+        "description": "",
         "image": "femme avec ombrelle de claude monet.jpg"
     },
     {
         "id": 5,
         "nom": "Jeune Fille Lisant de Jean-Honoré Fragonard",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "jeune fille lisant de jean honore fragonard.jpg"
     },
@@ -43,7 +43,7 @@ var tousProduits = [
         "id": 6,
         "nom": "L'Arbre de Vie de Gustav Klimt",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "l'arbre de vie de gustav klimt.jpg"
     },
@@ -51,7 +51,7 @@ var tousProduits = [
         "id": 7,
         "nom": "La Vague de Katsushika Hokusai",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "la vague de katsushika hokusai.jpg"
     },
@@ -59,7 +59,7 @@ var tousProduits = [
         "id": 8,
         "nom": "Le cri d'Edvard Munch",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "le cri de edvard munch.jpg"
     },
@@ -67,7 +67,7 @@ var tousProduits = [
         "id": 9,
         "nom": "Le Voyageur Contemplant une Mer de Nuages de Casper David Friedrich",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 10000,
         "description": "Toile de 80/100 cm.",
         "image": "le voyageur contemplant de casper david friedrich.jpg"
     },
@@ -75,7 +75,7 @@ var tousProduits = [
         "id": 10,
         "nom": "Les Petits éplucheurs de Pommes de Terre d'Albert Anker",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 8500,
         "description": "Toile de 80/100 cm.",
         "image": "les petits eplucheurs de albert anker.jpg"
     },
@@ -83,7 +83,7 @@ var tousProduits = [
         "id": 11,
         "nom": "Ligne Ondulée de Vassily Kandinsky",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 6500,
         "description": "Toile de 80/100 cm.",
         "image": "ligne ondulee de vassily kandinsky.jpg"
     },
@@ -91,7 +91,7 @@ var tousProduits = [
         "id": 12,
         "nom": "La Joconde de Leonard de Vinci",
         "categorie": "Tableaux Célèbres",
-        "prix": 65000,
+        "prix": 9500,
         "description": "Toile de 80/100 cm.",
         "image": "Mona_Lisa.jpg"
     },
@@ -99,33 +99,33 @@ var tousProduits = [
         "id": 13,
         "nom": "",
         "categorie": "Œuvres Originales",
-        "prix": 3500,
-        "description": "Robe légère en coton avec motifs floraux, saison estivale.",
-        "image": "oeuvre2accueil.webp"
+        "prix": 6500,
+        "description": "",
+        "image": "couleurs.avif"
     },
     {
         "id": 14,
-        "nom": "Baskets Nike Air Max",
+        "nom": "",
         "categorie": "Œuvres Originales",
-        "prix": 15000,
-        "description": "Chaussures de sport confortables, technologie Air Max.",
-        "image": "baskets.jpg"
+        "prix": 10000,
+        "description": "",
+        "image": "paysage.jpg"
     },
     {
         "id": 15,
-        "nom": "Sac à Main en Cuir",
+        "nom": "",
         "categorie": "Œuvres Originales",
         "prix": 7500,
-        "description": "Sac élégant en cuir synthétique, bandoulière ajustable.",
-        "image": "sac.jpg"
+        "description": "",
+        "image": "chat.jpg"
     },
     {
         "id": 16,
-        "nom": "Veste en Jean Homme",
+        "nom": "",
         "categorie": "Œuvres Originales",
         "prix": 5500,
-        "description": "Veste en denim classique, coupe regular, lavage moyen.",
-        "image": "veste.jpg"
+        "description": "",
+        "image": "cercles.jpg"
     },
     {
         "id": 17,
@@ -135,6 +135,23 @@ var tousProduits = [
         "description": "Toile de 50/70 cm.",
         "image": "composition sans but de vassily kandinsky.jpg"
     },
+    {
+        "id": 18,
+        "nom": "",
+        "categorie": "Œuvres Originales",
+        "prix": 5500,
+        "description": "",
+        "image": "africaine.webp"
+    },
+    {
+        "id": 19,
+        "nom": "",
+        "categorie": "Œuvres Originales",
+        "prix": 5500,
+        "description": "",
+        "image": "elephant.jpg"
+    }
+
 ];
 
 // 2 - la liste des utilisateurs pour tester la connexion
