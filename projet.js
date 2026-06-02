@@ -1,68 +1,140 @@
 var tousProduits = [
     {
         "id": 1,
-        "nom": "Smartphone Samsung Galaxy A55",
-        "categorie": "Électronique",
+        "nom": "Cheval Bleu   de Franz Marc",
+        "categorie": "Tableaux Célèbres",
         "prix": 65000,
-        "description": "Écran Super AMOLED 6.6 pouces, 128 Go, appareil photo 50 MP.",
-        "image": "smartphone.jpg"
+        "description": "Toile de 80/100 cm.",
+        "image": "cheval bleu de franz marc.jpg"
     },
     {
         "id": 2,
-        "nom": "Casque Bluetooth JBL Tune 520",
-        "categorie": "Électronique",
+        "nom": "Le Baiser (Der Kuss) de Gustav Klimt",
+        "categorie": "Tableaux Célèbres",
         "prix": 8500,
-        "description": "Casque sans fil, réduction de bruit, autonomie 57 heures.",
-        "image": "casque.jpg"
+        "description": "Toile de 50/70 cm.",
+        "image": "thm_1-der-kuss-detail.jpg"
     },
     {
         "id": 3,
-        "nom": "Laptop ASUS VivoBook 15",
-        "categorie": "Électronique",
+        "nom": "Dame Avec l'Hermione   de Leonard de Vinci",
+        "categorie": "Tableaux Célèbres",
         "prix": 120000,
-        "description": "Intel Core i5, 8 Go RAM, 512 Go SSD, écran 15.6 pouces.",
-        "image": "laptop.jpg"
+        "description": "Toile 80/100 cm.",
+        "image": "dame avec l'hermione de leonard de vinci.jpg"
     },
     {
         "id": 4,
-        "nom": "Montre Connectée Xiaomi Band 8",
-        "categorie": "Électronique",
+        "nom": "Femme avec Ombrelle  de Claude Monet",
+        "categorie": "Tableaux Célèbres",
         "prix": 12000,
         "description": "Suivi d'activité, fréquence cardiaque, autonomie 16 jours.",
-        "image": "montre.jpg"
+        "image": "femme avec ombrelle de claude monet.jpg"
     },
     {
         "id": 5,
-        "nom": "Robe d'Été Fleurie",
-        "categorie": "Mode",
-        "prix": 3500,
-        "description": "Robe légère en coton avec motifs floraux, saison estivale.",
-        "image": "robe.jpg"
+        "nom": "Jeune Fille Lisant de Jean-Honoré Fragonard",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "jeune fille lisant de jean honore fragonard.jpg"
     },
     {
         "id": 6,
+        "nom": "L'Arbre de Vie de Gustav Klimt",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "l'arbre de vie de gustav klimt.jpg"
+    },
+    {
+        "id": 7,
+        "nom": "La Vague de Katsushika Hokusai",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "la vague de katsushika hokusai.jpg"
+    },
+    {
+        "id": 8,
+        "nom": "Le cri d'Edvard Munch",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "le cri de edvard munch.jpg"
+    },
+    {
+        "id": 9,
+        "nom": "Le Voyageur Contemplant une Mer de Nuages de Casper David Friedrich",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "le voyageur contemplant de casper david friedrich.jpg"
+    },
+    {
+        "id": 10,
+        "nom": "Les Petits éplucheurs de Pommes de Terre d'Albert Anker",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "les petits eplucheurs de albert anker.jpg"
+    },
+    {
+        "id": 11,
+        "nom": "Ligne Ondulée de Vassily Kandinsky",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "ligne ondulee de vassily kandinsky.jpg"
+    },
+    {
+        "id": 12,
+        "nom": "La Joconde de Leonard de Vinci",
+        "categorie": "Tableaux Célèbres",
+        "prix": 65000,
+        "description": "Toile de 80/100 cm.",
+        "image": "Mona_Lisa.jpg"
+    },
+    {
+        "id": 13,
+        "nom": "",
+        "categorie": "Œuvres Originales",
+        "prix": 3500,
+        "description": "Robe légère en coton avec motifs floraux, saison estivale.",
+        "image": "oeuvre2accueil.webp"
+    },
+    {
+        "id": 14,
         "nom": "Baskets Nike Air Max",
-        "categorie": "Mode",
+        "categorie": "Œuvres Originales",
         "prix": 15000,
         "description": "Chaussures de sport confortables, technologie Air Max.",
         "image": "baskets.jpg"
     },
     {
-        "id": 7,
+        "id": 15,
         "nom": "Sac à Main en Cuir",
-        "categorie": "Mode",
+        "categorie": "Œuvres Originales",
         "prix": 7500,
         "description": "Sac élégant en cuir synthétique, bandoulière ajustable.",
         "image": "sac.jpg"
     },
     {
-        "id": 8,
+        "id": 16,
         "nom": "Veste en Jean Homme",
-        "categorie": "Mode",
+        "categorie": "Œuvres Originales",
         "prix": 5500,
         "description": "Veste en denim classique, coupe regular, lavage moyen.",
         "image": "veste.jpg"
-    }
+    },
+    {
+        "id": 17,
+        "nom": "Composition Sans But  de Vassily Kandinsky",
+        "categorie": "Tableaux Célèbres",
+        "prix": 8500,
+        "description": "Toile de 50/70 cm.",
+        "image": "composition sans but de vassily kandinsky.jpg"
+    },
 ];
 
 // 2 - la liste des utilisateurs pour tester la connexion
