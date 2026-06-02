@@ -30,9 +30,8 @@
 }
 
 /* reset basique */
-*,
-*::before,
-*::after {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -205,7 +204,7 @@ nav ul li a.actif {
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
-/* la grande image d'accueil */
+
 .hero {
     background: #000000;
     color: white;
